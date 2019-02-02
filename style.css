@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+body{
+    background: lightseagreen;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+main{
+    background: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 9px;
+    padding-bottom: 1em;
+    border-radius:  4px;
+    font-size: 1.2em;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+
+.padding-top{
+    padding-top: 0.3em;
+   
+}
+
+input{
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    font-size: 0.8em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.padding-top{
+    padding-top: 1em;
+}
+
+.container-div{
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 2.5%;
+    flex-flow: wrap;
+}
+
+.left{
+    text-align: right;
+    flex:1;
+    max-width: 35%;
+    margin-right: 10px;
+
+
+}
+.right{
+    max-width: 35%;
+    flex:1;
+    background: white;
+    align-self: center;
+    margin-left: 10px;
+}
+
+#radio-input-div{
+   text-align: left;
+}
+
+#checkbox-input-div{
+    text-align: left;
+}
+
+.submit-button{
+    background: lightseagreen;
+    color: white;
+    margin-top: 5px;
+    padding:5px 10px 5px 10px;
+    align-self: center;
+}
+
+@media (max-width: 480px){
+    .container-div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .right{
+        min-width: 250px;
+        align-items: flex-start;
+        margin-right: 5px;
+        margin-top: 8px;
+    }
+    .left{
+        margin-top: 8px;
+       max-width: 80%;
+       padding-left: 10px;
+       text-align: left;
+    }
+}
