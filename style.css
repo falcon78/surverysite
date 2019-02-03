@@ -90,18 +90,19 @@ input{
     .container-div{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-content: center;
     }
     .right{
+        width: 300px;
         min-width: 250px;
-        align-items: flex-start;
         margin-right: 5px;
         margin-top: 8px;
+        align-self: center;
     }
     .left{
-        margin-top: 8px;
+       margin-left: 1em;
        max-width: 80%;
-       padding-left: 10px;
+       align-self: flex-start;
        text-align: left;
     }
 }
